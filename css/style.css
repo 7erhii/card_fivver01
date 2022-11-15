@@ -7,6 +7,7 @@
   margin: 0;
   border: 0;
   box-sizing: border-box;
+  
 }
 
 a {
@@ -45,13 +46,41 @@ body {
 }
 
 .wrapper {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
 
 .main {
   flex: 1 1 auto;
 }
 
-[class*='__container'] {
+[class*="__container"] {
   max-width: 1057px;
   margin: 0 auto;
+}
+
+
+.header {
+}
+.header__container {
+}
+.header__logo {
+}
+.header__menu {
+}
+.menu {
+}
+.menu__list {
+}
+.menu__item {
+}
+.menu__link {
+}
+.header__button {
+}
+.button {
+}
+.button_blue {
 }
